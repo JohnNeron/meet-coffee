@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000F08;
+    padding: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icono svg {
+    width: 2rem;
+    fill: white;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.fondo {
+    background-image: url("../img/bg-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 3px 6px black;
+    color: white;
+    text-align: right;
+    padding: 5%;
+}
+
+header h1 {
+    font-size: 50px;
+    padding-left: 270px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.lugar {
+    text-align: center;
+    padding: 100px;
+
+}
+
+.lugar img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.lugar h2 {
+    font-size: 30px;
+}
+
+.lugar p {
+    padding: 15px 310px;
+}
+
+#proxima-charla {
+    background: #a4452c;
+    padding: 50px;
+    color: white;
+}
+
+#proxima-charla h2{
+    font-size: 35px;
+    margin: 0;
+}
+
+#proxima-charla h3{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#proxima-charla h5{
+    font-size: 20px;
+    font-weight: unset;
+    margin: 0;
+}
+
+#proxima-charla p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#proxima-charla span .data {
+    margin: 0;
+    font-size: 12px;
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ .eventos-anteriores {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/*.eventos-anteriores h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.eventos-anteriores div {
+    display: inline-block;
+} 
+
+.eventos-anteriores img {
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.eventos-anteriores h3 {
+    font-size: 23px;
+} */
+
+.vegan {
+    width: 56%;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000F08;
+    color: white;
+    padding: 20px;
+}
+
+footer i {
+    font-size: 30px;
+    padding: 25px 5px;
+}
